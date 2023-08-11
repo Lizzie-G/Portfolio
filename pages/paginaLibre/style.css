@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  font-family: "Indie Flower";
+  margin: 0;
+}
+
+.fondoCocktail{
+  background-image: url("/img/fondo.jpg");
+  
+}
+
+/*Estitlo del navegador*/
+
+a{
+  text-decoration: none;
+  color: black;
+}
+header{
+  display: flex;
+  min-height: 70px;
+  background-color: #F5B7B1;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.logo{
+  display: flex;
+}
+.logo img{
+  height: 100px;
+  margin-right: 10px;
+}
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+}
+nav a:hover{
+  color: white;
+}
+
+.imagenPrincipal{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*Estitlo del carrucel*/
+.carrousel{
+  width: 100%;
+  display: flex;
+  overflow-y: auto;
+  object-position: center;
+}
+
+.carrousel img{
+  width: 100%;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  display: block;
+  align-items: center;
+  border-radius: 15%;
+  box-shadow: 6.31px 6.31px 41px #C7C8CC, -6.31px -6.31px 41px #FFFFFF;
+}
+
+table{
+  padding-left: 20px;
+}
+
+caption{
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+ .pasos{
+   width: 80px;
+   font-size: 20px;
+ }
+
+footer{
+  display: flex;
+  min-height: 70px;
+  background-color: #C2185B;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+@media (max-width:700px){
+  body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  nav{
+    display: flex;
+  }
+  
+  .imagenPrincipal{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .carrousel img{
+    width: 100%;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    object-position: center;
+    align-items: center;
+  }
+}
