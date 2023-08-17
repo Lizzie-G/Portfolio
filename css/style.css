@@ -24,6 +24,7 @@ header{
     min-height: 70px;
     justify-content: space-between;
     align-items: center;
+    font-family: Manrope;
 }
 
 h1{
@@ -33,6 +34,7 @@ h1{
 a{
     text-decoration: none;
     color: var(--titulos);
+    padding: 2px;
 }
 
 nav .options, h1{
@@ -63,6 +65,7 @@ section{
     margin: auto;
     text-align: center;
     color: var(--titulo);
+    font-family: Manrope;
 }
 
 .tarjeta img{
@@ -77,31 +80,41 @@ section{
     color: var(--titulos);
 }
 
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,auto);    
+    grid-gap: 3%;
+    width: 1000px;
+    max-width: 90%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    font-family: Manrope;
+}
+
 .contenido{
     border: 2px groove var(--subtitulo);
-    width: 30%;
     border-radius: 10px;
-    display: inline-table;
-    margin: 4%;
-    min-width: 280px;
     background-color: var(--fondos);
     height: 450px;
-    align-items: center;
+    width: 100%;
 }
 
 .contenido:hover{
-    border: 2px groove  #372745;
+    border: 2px groove  #cdc4d5;
 }
 
 .contenido img{
-    width: 96%;
+    width: 98%;
     height: 250px;
     object-position: left;
     object-fit: cover;
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 5px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .contenido h3, p{
@@ -109,11 +122,13 @@ section{
 }
 
 .contenido h3{
-    color: var(--titulos)
+    color: var(--titulos);
+    font-size: medium;
 }
 
 .contenido p{
     color: var(--subtitulo);
+    font-size: small;
 }
 
 
@@ -124,10 +139,15 @@ section{
     width: 77%;
     margin: auto;
     padding: 2%;
+    color: var(--titulos);
+    font-family: Manrope;
 }
 
 .contenedorChico p{
-    font-size: large;
+    font-size: medium;
+    color: var(--subtitulo);
+    text-align: left;
+    text-indent: 15px;
 }
 
 .contenedorChico form{
@@ -137,37 +157,54 @@ section{
 
 .contenedorChico form label{
     display: block;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
 }
 
 .contenedorChico form input{
-    text-align: right;
+    text-align: left;
+    width: 230px;
+    font-family: Monorope;
+}
+
+form{
+    font-family: Manrope;
+}
+
+form input:hover{
+    background: var(--subtitulo);
+    border: var(--bordes);
 }
 
 input [type="submit"]{
-    border: 2px groove grey;
-    padding: 5%;
-    border-radius: 12%;
-    background-color: white;
+    
 }
 
 textarea{
-    width: 170px;
+    width: 230px;
     resize: none;
     margin: auto;
+    font-family: Monorope;
+}
+
+textarea:hover{
+    background: var(--subtitulo);
+    font-family: Monorope;
 }
 
 footer{
     margin-top: 5%;
-    background-color: bisque;
+    background-color: var(--subtitulo);
     border: 2px groove gray;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    color: var(--hover);
 }
 
-footer p img{
-    margin: 5%;
+footer img{
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
 }
 
 #insta{
@@ -180,4 +217,28 @@ footer p img{
 
 #linkedin{
     width: 20px;
+}
+@media (max-width:1000px) {
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2,auto);    
+        grid-gap: 3%;
+        width: 1000px;
+        max-width: 90%;
+        margin-right: auto;
+        margin-bottom: 14%;
+        margin-left: auto;
+    }
+}
+
+@media (max-width:700px) {
+    .contenedor{
+        display: block;
+        margin-bottom: 30px;  
+        width: 1000px;
+        max-width: 90%;
+    }
+    .contenido{
+        margin-bottom: 5%;
+    }
 }

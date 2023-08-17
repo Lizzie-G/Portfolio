@@ -25,7 +25,7 @@
     </section>
 
     <br>
-
+    <hr>
     <section id="portfolio">
         <div class="contenedor">
             <div class="contenido">
@@ -35,36 +35,44 @@
             </div>
             <div class="contenido">
                 <img src="img/paginas/elijeTuHistoria.png" alt="Imagen de una pagina en la que podes ir elijiendo que camino tomar en una historia de fantasia.">
-                <h3>¿A dónde irás?</h3>
-                <p>En esta página tienes la posibilidad de visitar tres diferentes mundos, en donde pordrás ir tomando diferentes deciciones y llegar a salvar o destruir el mundo.</p>
+                <h3>Tu decides que planeta visitaras primero</h3>
+                <p>Ingresa. Toma la desición de visitar tres diferentes mundos, en donde pordrás elejir entre diferentes caminos... y llegar a salvar o destruir el mundo.</p>
             </div>
             <div class="contenido">
                 <img src="img/paginas/tablas.png" alt="Imagen de una pagina con una serie de tablas.">
-                <h3></h3>
-                <p></p>
+                <h3>Las tablas: diferentes formatos de organizar tu información</h3>
+                <p>Aquí podras seleccionar la tabla que mejor se adapte a tus necesidades, o combinarlas para crear un nuevo sistema de datos.</p>
             </div>
             <div class="contenido">
                 <img src="" alt="Imagen de una pagina con diferentes clases de recetas.">
-                <h3></h3>
-                <p></p>
+                <h3>¿Sos goloso? ¿Te gusta cocinar diferente clases de platos?</h3>
+                <p>Este sitio te premite satisfacer cualquier deseo culinario que tengas. Y como regalo, una pagina de Cocktails para acompañarlo.</p>
             </div>
             <div class="contenido">
                 <img src="img/paginas/formulario.png" alt="Imagen del primer formulario creado.">
-                <h3></h3>
-                <p></p>
+                <h3>Te gusta leer, entonces no dejes de hacer esta encuesta</h3>
+                <p>Hola, estamos juntando datos para crear una biblioteca virtual en donde encontras, diferentes generos de libros, seleccionados especialmente para vos.</p>
             </div>
             <div class="contenido">
-                <img src="" alt="Imagen de pagina en progreso.">
-                <h3>Mi primer formulario</h3>
-                <p>Este formulario es una encuesta para personas que les guste mucho leer. Sirve para recolectar información en una biblioteca por ejemplo.</p>
+                <img src="/img/paginas/workInProgress.jpg" alt="Imagen de pagina en progreso.">
+                <h3>Continuo estudiando y generando nuevos sitios</h3>
+                <p></p>
             </div>
         </div>
     </section>
+    
+    <hr>
 
     <section id="about">
         <div class="contenedorChico">
             <h2>Sobre mi</h2>
-            <p>Descripcion ChatGPT</p>
+            <p>¡Hola! Soy Elizabeth Grosso, una apasionada desarrolladora web en proceso de aprendizaje. Mi entusiasmo por la creación y el diseño me ha llevado a sumergirme en el emocionante mundo del desarrollo web. Actualmente, estoy centrada en ampliar mis habilidades en diferentes áreas clave.</p>
+
+            <p>Mi viaje en el desarrollo web me ha llevado a explorar una variedad de lenguajes y tecnologías. Estoy trabajando arduamente para dominar las bases sólidas de HTML, CSS y JavaScript, ya que entiendo su importancia fundamental en la construcción de sitios web interactivos y visualmente atractivos. Cada línea de código que escribo es un paso hacia la realización de mis ideas y la creación de experiencias en línea cautivadoras.</p>
+                
+            <p>Además de los lenguajes frontales, estoy adentrándome en el mundo de Python. Reconozco la versatilidad de Python y su capacidad para abordar una amplia gama de tareas, desde el desarrollo web hasta la ciencia de datos. A medida que profundizo en Python, estoy emocionada por las oportunidades que se presentarán para crear aplicaciones eficientes y soluciones creativas.</p>
+                
+            <p>Sé que el desarrollo web es un campo en constante evolución, y estoy comprometida a mantener mis conicimientos actualizados y seguir formandome para poder brindar el mejor servico.</p>
         </div>
     </section>
 
@@ -72,11 +80,13 @@
         <div class="contenedorChico">
             <h2>Esta es la información para contactarme</h2>
             <form action="">
-                <label>Nombre: <input type="text" name="nombre"></label>
-                <label>Número de contacto <input type="number" name="phone"></label>
-                <label>¿Por qué quiers contactarme?
-                    <textarea name="interes" id="" cols="10" rows="10"></textarea>
+                <label>Nombre: <br><input type="text" name="nombre" required></label>
+                <label>Número de contacto <br><input type="number" name="phone" required></label>
+                <label>¿Por qué quieres contactarme?<br>
+                    <textarea name="interes" id="" cols="10" rows="10" required placeholder="Describa brevemente por que se cominica. Gracias"></textarea>
                 </label>
+                <input type="submit" value="Enviar" required>
+                <input type="reset" hidden>
             </form>
         </div>
     </section>
@@ -84,7 +94,7 @@
     <hr style="margin-top: 5%;">
 
     <footer>
-        <p>Mis redes <a href=""><img src="" alt="Logo instagram" id="insta"></a> <a href=""><img src="" alt="Logo Facebook" id="face"></a> <a href=""><img src="" alt="Logo Linkdin" id="linkdin"></a></p>
+        <p>Mis redes <a href=""><img src="/img/footer/instagram.jpg" alt="Logo instagram" ></a> <a href=""><img src="img/footer/facebook.jpg" alt="Logo Facebook"></a> <a href=""><img src="img/footer/linkedin.jpg" alt="Logo Linkdin"></a><a href=""><img src="img/footer/whatsapp.jpg" alt="Logo WhatsApp"></a></p>
         <p>Todos los derechos reservados Elizabeth </p>
     </footer>
 
