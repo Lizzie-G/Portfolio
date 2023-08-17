@@ -154,7 +154,6 @@ section{
     background: #536976;  /* fallback for old browsers */
     background: -webkit-radial-gradient(circle, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
     background: radial-gradient(circle, #333e7e, #1c4860,  #343e7b, #14435e, #10194e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 #about .contenedorChico{
