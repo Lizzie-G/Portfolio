@@ -146,8 +146,9 @@ section{
 .contenedorChico p{
     font-size: medium;
     color: var(--subtitulo);
-    text-align: left;
+    text-align: justify;
     text-indent: 15px;
+    padding: 2%;
 }
 
 .contenedorChico form{
@@ -173,11 +174,13 @@ form{
 
 form input:hover{
     background: var(--subtitulo);
-    border: var(--bordes);
+    border: 2px solid var(--hover);
+    border-radius: 3px;
 }
 
 input [type="submit"]{
-    
+    width: 30px;
+    text-align: center;
 }
 
 textarea{
@@ -185,6 +188,8 @@ textarea{
     resize: none;
     margin: auto;
     font-family: Monorope;
+    order: 2px solid var(--hover);
+    border-radius: 3px;
 }
 
 textarea:hover{
@@ -231,14 +236,14 @@ footer img{
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:600px) {
     .contenedor{
         display: block;
-        margin-bottom: 30px;  
-        width: 1000px;
+        margin-bottom: 30px;
         max-width: 90%;
     }
     .contenido{
         margin-bottom: 5%;
+        height: 380px;
     }
 }
