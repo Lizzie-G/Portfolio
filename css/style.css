@@ -222,20 +222,9 @@ footer{
 footer img{
     width: 20px;
     height: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
-#insta{
-    width: 20px;
-}
-
-#face{
-    width: 15px;
-}
-
-#linkedin{
-    width: 20px;
-}
 @media (max-width:1000px) {
     .contenedor{
         display: grid;
