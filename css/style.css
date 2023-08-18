@@ -181,10 +181,6 @@ section{
     font-family: Manrope;
 }
 
-form{
-    font-family: Manrope;
-}
-
 form input:hover{
     background: var(--subtitulo);
     border: 2px solid var(--hover);
@@ -244,14 +240,45 @@ footer img{
         display: grid;
         grid-template-columns: repeat(1,auto);    
         grid-gap: 3%;
-    }    
+    }   
+
     .contenedor{
         display: block;
         margin-bottom: 30px;
         max-width: 90%;
     }
+
     .contenido{
         margin-bottom: 5%;
-        height: 400px;
+        height: 420px;
+    }
+    .contenedorChico form{
+        font-size: small;
+        text-align: center;
+        margin: auto 1px;
+    }
+    
+    .contenedorChico form label{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contenedorChico form input{
+        text-align: left;
+        width: 180px;
+        font-family: Manrope;
+        font-size: smaller;
+        margin: auto -50%;
+    }
+
+    textarea{
+        width: 180px;
+        resize: none;
+        margin: auto;
+        font-family: Manrope;
+        order: 2px solid var(--hover);
+        border-radius: 3px;
+        font-size: smaller;
+        margin: auto -50%;
     }
 }
