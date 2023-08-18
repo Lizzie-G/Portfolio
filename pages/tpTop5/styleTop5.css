@@ -28,5 +28,12 @@ p{
 footer{
   text-align: center;
   color: #515A5A;
+  font-size: small;
+  padding: 10px;
+  width: 100%;
+  background-color: #121a22;
 }
 
+footer a{
+  color: #596f84;
+}

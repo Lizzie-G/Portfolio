@@ -42,7 +42,7 @@ thead {
 }
 
 tbody:active {
-    background-color: #eaff00;
+    background-color: var(--titulos);
 }
 
 tfoot{
