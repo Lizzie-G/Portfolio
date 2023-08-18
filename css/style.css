@@ -178,7 +178,7 @@ section{
 .contenedorChico form input{
     text-align: left;
     width: 230px;
-    font-family: Monorope;
+    font-family: Manrope;
 }
 
 form{
@@ -191,23 +191,24 @@ form input:hover{
     border-radius: 3px;
 }
 
-input [type="submit"]{
-    width: 30px;
+#enviar{
+    width: 100px;
     text-align: center;
+    font-family: Manrope;
 }
 
 textarea{
     width: 230px;
     resize: none;
     margin: auto;
-    font-family: Monorope;
+    font-family: Manrope;
     order: 2px solid var(--hover);
     border-radius: 3px;
 }
 
 textarea:hover{
     background: var(--subtitulo);
-    font-family: Monorope;
+    font-family: Manrope;
 }
 
 footer{
@@ -239,6 +240,9 @@ footer img{
 }
 
 @media (max-width:600px) {
+    #navLink{
+        align-items: ;
+    }    
     .contenedor{
         display: block;
         margin-bottom: 30px;
@@ -246,6 +250,6 @@ footer img{
     }
     .contenido{
         margin-bottom: 5%;
-        height: 380px;
+        height: 400px;
     }
 }
