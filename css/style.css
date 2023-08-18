@@ -242,6 +242,11 @@ footer img{
         grid-gap: 3%;
     }   
 
+    .tarjeta img{
+        width: 200px;
+        height: 200px;
+    }
+
     .contenedor{
         display: block;
         margin-bottom: 30px;
@@ -252,6 +257,7 @@ footer img{
         margin-bottom: 5%;
         height: 400px;
     }
+
     .contenedorChico form{
         font-size: small;
         text-align: center;
