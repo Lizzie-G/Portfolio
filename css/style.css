@@ -241,7 +241,9 @@ footer img{
 
 @media (max-width:600px) {
     #navLink{
-        align-items: ;
+        display: grid;
+        grid-template-columns: repeat(1,auto);    
+        grid-gap: 3%;
     }    
     .contenedor{
         display: block;
