@@ -142,7 +142,7 @@ footer{
     width: 150px;
     height: 150px;
     border-radius: 20px;
-    object-fit: contain;
+    object-fit: cover;
   }
 
 }
