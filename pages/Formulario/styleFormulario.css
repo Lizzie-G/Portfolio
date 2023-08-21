@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&display=swap');
 
+body{
+  margin: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 header{
   padding: 20px;
   width: 100%;
@@ -45,7 +53,7 @@ label{
 }
 
 form input{
-  width: 20%;
+  width: 210px;
   height: 30px;
   border-radius: 10px;
   border: 5px ridge rosybrown;
@@ -58,22 +66,31 @@ input[type="radio"]{
     background-color: lightgray;
 }
 
-body{
-  margin: auto;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
+input[type="checkbox"]{
+  accent-color: rosybrown;
+  background-color: lightgray;
+}
+
+#paises{
+  font-family: "Edu SA Beginner";
+  font-size: 16px;
+  border: 5px ridge rosybrown;
+  background-color: lightgray;
+  border-radius: 10px;
+  height: 45px;
 }
 
 textarea{
     resize: none;
     width: 50%;
     height: 150px;
-    border-radius: 10px;
     padding: 10px;
     text-align: center;
+    font-family: "Edu SA Beginner";
+    font-size: 16px;
+    border: 5px ridge rosybrown;
     background-color: lightgray;
+    border-radius: 10px;
 }
 
 footer{

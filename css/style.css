@@ -107,7 +107,7 @@ section{
 .contenido img{
     width: 98%;
     height: 250px;
-    object-position: left;
+    object-position: left top;
     object-fit: cover;
     overflow: hidden;
     border-top-left-radius: 10px;
