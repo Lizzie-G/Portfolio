@@ -145,12 +145,11 @@ footer{
   }
  
   .carrousel{
-    display: flex;
-    gap: 10px;
-    overflow: scroll;
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 3%;
     height: 180px;
+    overflow-y: auto;
   }
   
   .carrousel img{
