@@ -6,6 +6,19 @@ body{
   background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
 }
 
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #C2185B;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FFF6B7; 
+  border-radius: 20px;
+}
+
 /*Estilo del navegador*/
 
 header{
@@ -67,7 +80,7 @@ a{
 }
 
 .carrousel::-webkit-scrollbar {
-  width: 4px;
+  height: 4px;
 }
 
 .carrousel::-webkit-scrollbar-track {
