@@ -153,6 +153,17 @@ caption{
   width: 100%;
 }
 
+th{
+  width: 100%;
+  text-align: left;
+  color: #F6416C;
+  text-shadow: #FFF6B7 1px 1px;
+}
+
+.ancho{
+  width: 3em;
+}
+
 .pasos{
    width: 80px;
    font-size: 20px;
