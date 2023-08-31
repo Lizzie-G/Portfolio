@@ -145,6 +145,7 @@ a{
 
 table{
   padding-left: 20px;
+  width: 100%;
 }
 
 caption{
@@ -152,6 +153,18 @@ caption{
   text-align: left;
   padding-left: 20px;
   padding-top: 20px;
+  width: 100%;
+}
+
+th{
+  width: 100%;
+  text-align: left;
+  color: #F6416C;
+  text-shadow: #FFF6B7 1px 1px;
+}
+
+.ancho{
+  width: 15%;
 }
 
 .pasos{
